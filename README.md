@@ -1,1 +1,1 @@
-# umschool
+# ums
