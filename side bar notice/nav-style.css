@@ -1,0 +1,436 @@
+
+html {
+  overflow-x: hidden;
+  font-family: Roboto, sans-serif, arial;
+  font-size: 16px;
+  color: #740e0e;
+}
+
+body {
+  background-color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  overflow-x: hidden;
+
+
+  -webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%;
+	font-size:10px;
+	-webkit-tap-highlight-color:transparent 
+}
+
+/********** Common CSS Starts **********/  
+* {
+	margin:0px;
+	padding:0px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+	outline:0 
+}
+
+
+.container {
+	width: 100%;
+	margin:0px auto;
+	display:table;
+}
+.width-100 {
+	width: 100%;
+	float: left;
+}
+.width-25 {
+	width: 25%;
+	float: left;
+}
+.width-33 {
+	width: 33%;
+	float: left;
+}
+.width-50 {
+	float: left;
+	width: 50%;
+}
+.width-66 {
+	width: 66%;
+	float: left;
+}
+.width-75 {
+	width:75%;
+	float: left;
+}
+.mt-20 {
+	margin-top:20px;
+}
+.mt-30 {
+	margin-top:30px;
+}
+.mt-50 {
+	margin-top:50px;
+}
+.main-section{
+	width: 100%;
+	float: left;
+	padding-top:70px;
+	padding-bottom:70px;
+}
+/********** Common CSS Ends **********/
+
+/********* Header HTML CSS Starts **********/
+.header {
+	background: #46b7c1;
+	padding: 6px;
+}
+.header b {
+	background: #fff;
+	color: red;
+	padding:10px;
+	font-size: 20px;
+}
+.header marquee {
+	font-size:20px;
+	color: #ffffff;
+	width: 80%;
+}
+/********* Header HTML CSS End **********/
+
+
+/********* Design Logo and Menu section CSS Starts **********/
+.logo {
+	height:60px;
+}
+/*Menu Section Menu Section*/
+nav {
+	float: right;
+	padding:25px 0px;
+
+}
+nav a {
+	color: rgb(246, 245, 243);
+	text-decoration: none;
+	font-size:18px;
+	padding:2px 10px;
+	font-weight:500;
+
+
+}
+/********* Design Logo and Menu section CSS End **********/
+
+
+/********** Top Header CSS Starts **********/  
+.header {
+	background-color: #68bb59;
+}
+.head-left ul {
+	list-style:none;
+	float:left;
+}
+.head-left ul li {
+	border-right: 1px solid rgba(255, 255, 255, .3);
+	border-left: 1px solid rgba(255, 255, 255, .3);
+	float: left;
+	padding: 15px;
+	color: white;
+}
+.head-left ul li a {
+	color:white;
+	text-decoration:none;
+}
+.notification {
+	padding-top: 17px;
+	color: white;
+}
+.notification span img {
+	height: 14px;
+	width: 30px;
+}
+.notification span {
+	padding-right: 5px;
+}
+.head-right ul {
+	list-style:none;
+	float: right;
+}
+.head-right ul li {
+	border-right: 1px solid rgba(255, 255, 255, .3);
+	border-left: 1px solid rgba(255, 255, 255, .3);
+	float: left;
+	padding: 15px 60px;
+	color: white;
+}
+.head-right ul li a {
+	color:rgb(8, 30, 233);
+	text-decoration:none;
+}
+.head-span img {
+	height: 14px;
+	width: 30px;
+}
+/********** Top Header CSS Ends **********/
+
+
+
+
+
+
+
+
+ 
+														/********** side navs **********/
+
+
+.sidenav
+{
+	
+	position: relative;
+	
+	
+	top: 13%;
+	left: 5%;
+	z-index: 1;
+	overflow-x: hidden;
+	
+}
+.sidenav a
+{
+	color: #fff;
+	padding: 5px 15px 10px 16px;
+	text-decoration: none;
+	font-size: 25px;
+	display: block;
+}
+.sidenav a:hover
+{
+	background: blue;
+}
+h2
+{
+	padding: 0px 15px 10px 16px;
+	color: #fff;
+	border-bottom-style: solid;
+	width: 100%;
+	background-color: #080ce4;
+
+}
+.main
+{
+	background: #002240;
+	margin-left: 3%;
+	padding: 4px 10px;
+	color: #fff;
+	display: inline-block;
+	box-sizing: border-box;
+	max-width:500px;
+	
+}
+.body-con{
+	padding: 90px;
+	height: 900px;
+	width: 100%;
+
+
+}
+
+.bodya{
+	height: 700px;
+	width: 20%;
+	background-color: #46b7c1;
+	float: left;
+	margin-left: 5%;
+	padding: 2%;
+
+	z-index: 1;
+	overflow-x: hidden;
+	padding-top: 20px;
+
+	
+}
+
+
+.bodyc{
+	height: 700px;
+	width: 70%;
+	background-color: #78ec9d;
+	float: left;
+	padding-right: 0%;
+	text-align: center;
+	color: #030000;
+	font-size: 13px;
+	
+}
+
+	a {
+		color: #337ab7;
+		text-decoration: none;
+}
+	
+
+/*Making responsive*/
+@media screen and (max-width: 600px)
+{
+	.sidenav
+	{
+		padding-top: 15px;
+		width: 155px;
+
+	}
+	.sidenav a
+	{
+		padding-left: 20px;
+		font-size: 18px;
+	}
+	.main
+	{
+		margin-left: 32%;
+		font-size: 15px;
+	}
+	p
+	{
+		display: inline-block;
+	}
+}
+
+
+														/********** side navs end **********/
+
+
+														#customers {
+															font-family: Arial, Helvetica, sans-serif;
+															border-collapse: collapse;
+															width: 100%;
+														  }
+														  
+														  #customers td, #customers th {
+															border: 1px solid #ddd;
+															padding: 8px;
+															
+														  }
+														  
+														  #customers tr:nth-child(even){background-color: #ebf26d;}
+														  
+														  #customers tr:hover {background-color: #ddd;}
+														  
+														  #customers th {
+															padding-top: 12px;
+															padding-bottom: 12px;
+															text-align: left;
+															background-color: #04AA6D;
+															color: rgb(251, 245, 245);
+														  }
+
+
+
+
+
+
+
+
+
+
+/*footerfooterfooterfooterfooterfooterfooterfooterfooter*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 100%;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+@media(max-width: 574px){
+	.footer-col{
+	  width: 100%;
+  }
+  }
+  @media(max-width: 574px){
+	.container{
+	  width: 100%;
+  }
+  }
